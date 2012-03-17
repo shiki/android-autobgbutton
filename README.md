@@ -1,8 +1,8 @@
-
 ## SAutoBgButton for Android
 
 A subclass of the Button widget that automatically darkens the button's background when pressed, and sets it to transparent when disabled. This is inspired by iOS' automatic handling of custom background images for buttons.
 
+See the blog post [here](http://shikii.net/blog/android-button-background-image-pressedhighlighted-and-disabled-states-without-using-multiple-images/)
 
 ### Usage
 
@@ -23,3 +23,6 @@ A subclass of the Button widget that automatically darkens the button's backgrou
           android:background="@drawable/button_blue_bg"
           android:text="Button with background image" />
 
+Here's a sample output using this custom button:
+
+![](http://shikii.net/blog/wp-content/uploads/2012/03/android-autobgbutton-screen.jpg)
