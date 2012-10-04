@@ -12,7 +12,7 @@ import android.widget.Button;
 /**
  * Applies a pressed state color filter or disabled state alpha for the button's background
  * drawable.
- * 
+ *
  * @author shiki
  */
 public class SAutoBgButton extends Button {
@@ -38,7 +38,7 @@ public class SAutoBgButton extends Button {
   }
 
   /**
-   * The stateful LayerDrawable used by this button. 
+   * The stateful LayerDrawable used by this button.
    */
   protected class SAutoBgButtonBackgroundDrawable extends LayerDrawable {
 
