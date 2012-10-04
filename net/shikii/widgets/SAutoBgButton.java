@@ -46,8 +46,8 @@ public class SAutoBgButton extends Button {
     protected ColorFilter _pressedFilter = new LightingColorFilter(Color.LTGRAY, 1);
     // Alpha value when the button is disabled
     protected int _disabledAlpha = 100;
-	// Alpha value when the button is enabled
-	protected int _fullAlpha = 255;
+    // Alpha value when the button is enabled
+    protected int _fullAlpha = 255;
 
     public SAutoBgButtonBackgroundDrawable(Drawable d) {
       super(new Drawable[] { d });
@@ -73,7 +73,7 @@ public class SAutoBgButton extends Button {
         setAlpha(_disabledAlpha);
       } else {
         setColorFilter(null);
-		setAlpha(_fullAlpha);
+        setAlpha(_fullAlpha);
       }
 
       invalidateSelf();
